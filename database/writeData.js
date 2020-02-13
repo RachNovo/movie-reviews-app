@@ -50,9 +50,3 @@ function writeReviews(writer, encoding, callback) {
 writeReviews(writeUsers, 'utf-8', () => {
   writeUsers.end();
 });
-
-// run file 4 times, each time I'll run it
-// to reviews1.csv // 1-2,500,000
-// to reviews2.csv // 2,500,001-6,000,000
-
-// to reviews3.csv // 6,000,001-10,000,000
