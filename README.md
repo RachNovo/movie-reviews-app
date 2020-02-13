@@ -1,12 +1,6 @@
 # Movie Reviews App: Reviews Service
 
-> This is the reviews service of a movie reviews app. It is one micro-service out of 4 (others listed below) for the full app. I did minor refactoring on the front end and replaced and scaled the back end to handle 100 million records.
-
-## Related Projects
-
-  - https://github.com/SDC-MOZZARELLA/critic-reviews
-  - https://github.com/SDC-MOZZARELLA/SDC-David-Castphotos
-  - https://github.com/SDC-MOZZARELLA/ryuuohlee-movie-preview
+> This is the reviews service of a movie reviews app. It is one micro-service out of 4 for the full app. I did minor refactoring on the front end and replaced and scaled the back end to handle 100 million records.
 
 ## Usage
 
