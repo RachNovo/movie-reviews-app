@@ -10,7 +10,7 @@ const writeUsers = fs.createWriteStream('database/csv/reviews.csv');
 writeUsers.write('reviewId,reviewMovieId,reviewMovieName,reviewRating,reviewDate,reviewText,reviewerName\n', 'utf8');
 
 function writeReviews(writer, encoding, callback) {
-  let i = 10000000;
+  let i = 100;
   let id = 1;
   let movieId = 1;
   let movieName = generateMovieName();
