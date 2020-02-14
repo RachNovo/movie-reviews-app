@@ -1,7 +1,7 @@
 const client = require('./postgres-client.js');
 
 const createReview = (review, callback) => {
-  console.log('whats it recieving in the db??', review);
+  // console.log('whats it recieving in the db??', review);
   const query = `INSERT INTO reviews VALUES (
       '${review.review_id}',
       '${review.review_movie_id}',
@@ -18,7 +18,7 @@ const createReview = (review, callback) => {
 };
 
 const readAllReviews = (movieId, callback) => {
-  console.log(`recieved readAllReviews request for ${movieId}`);
+  // console.log(`recieved readAllReviews request for ${movieId}`);
   const query = `SELECT * FROM reviews
   WHERE reviews.review_movie_id = '${movieId}'`;
   client
@@ -30,7 +30,7 @@ const readAllReviews = (movieId, callback) => {
     .catch((err) => callback(err.stack));
 };
 
-// REFACTOR FOR POSTGRES
+// LEFT OUT BECAUSE OF REFACTOR FOR POSTGRES
 
 // const updateReview = (id, changes, callback) => {
 //   model.Review.updateOne({ reviewId: id }, changes).then((result) => {

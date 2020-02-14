@@ -2,10 +2,6 @@ const fs = require('fs');
 const { generateReview } = require('./generateReview.js');
 const { generateMovieName } = require('./generateReview.js');
 
-const randomNum = (min, max, places = 0) => (
-  Number((Math.random() * (max - min) + min).toFixed(places))
-);
-
 const writeUsers = fs.createWriteStream('database/csv/reviews.csv');
 writeUsers.write('reviewId,reviewMovieId,reviewMovieName,reviewRating,reviewDate,reviewText,reviewerName\n', 'utf8');
 
@@ -44,7 +40,6 @@ function writeReviews(writer, encoding, callback) {
     }
   }
   write();
-  console.log()
 }
 
 writeReviews(writeUsers, 'utf-8', () => {
