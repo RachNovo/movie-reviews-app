@@ -2,3 +2,4 @@ node_modules
 package-lock.json
 config.json
 reviews.csv
+.env

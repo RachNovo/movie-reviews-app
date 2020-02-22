@@ -2,6 +2,8 @@ require('newrelic');
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const path = require('path');
+require('dotenv').config();
 
 // DATABASES
 // mongo db
@@ -16,6 +18,7 @@ app.use(cors());
 app.use(json);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 // create
 app.post('/api/audienceReviews', (req, res) => {
@@ -85,4 +88,9 @@ app.get('/loaderio-4aaa72da9f27ce7189151dd23f342e49.txt', (req, res) => {
 });
 
 app.use(express.static('client/dist'));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
+});
+
 app.listen(PORT, console.log(`Server started on port ${PORT}`));

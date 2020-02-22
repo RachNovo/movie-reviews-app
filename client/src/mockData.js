@@ -6,7 +6,7 @@ module.exports = [
     reviewMovieId: 9499977,
     reviewMovieName: 'Lord of the Rings',
     reviewRating: 5,
-    reviewText: 'Dolores pariatur maxime atque minima ut libero dolorem asperiores. Iusto enim est. Sapienteased minus et. Est non ut deleniti possimus aspernatur. Rerum non magnam nam. Aut qui aut perferendis atasint sunt.',
+    reviewText: 'Dolores pariatur maxime atque minima ut libero dolorem asperiores. Iusto enim est. Sapienteased minus et. Est non ut deleniti possimus aspernatur. Rerum non magnam nam. Aut qui aut perferendis atasint sunt. Tempore nihil consequatur inventore nemo voluptatem et rerum. Non et quidem voluptatumvoluptatem molestiae vero',
     reviewerName: 'Mr. Jovan Dooley',
   },
   {
@@ -15,7 +15,7 @@ module.exports = [
     reviewMovieId: 9499977,
     reviewMovieName: 'Lord of the Rings',
     reviewRating: 1,
-    reviewText: 'Id quia eveniet inventore deserunt delectus. Consectetur nihil saepe. Incidunt repellendusquia est at qui. Tempore nihil consequatur inventore nemo voluptatem et rerum. Non et quidem voluptatumvoluptatem molestiae vero',
+    reviewText: 'Id quia eveniet inventore deserunt delectus. Consectetur nihil saepe. Incidunt repellendusquia est at qui. Tempore nihil. Id quia eveniet inventore deserunt delectus. Consectetur nihil saepe. Incidunt repellendusquia est at qui. Tempore nihil.',
     reviewerName: 'Keara Wunsch',
   },
   {
@@ -24,7 +24,7 @@ module.exports = [
     reviewMovieId: 9499977,
     reviewMovieName: 'Lord of the Rings',
     reviewRating: 3,
-    reviewText: 'Dolorem incidunt voluptates accusamus consequatur voluptatum blanditiis ut ea. Minus abporro illo excepturi commodi natus. Asperiores hic a.',
+    reviewText: 'Dolorem incidunt voluptates accusamus consequatur voluptatum blanditiis ut ea. Minus abporro illo excepturi commodi natus. Asperiores hic a. Dolorem incidunt voluptates accusamus consequatur voluptatum blanditiis ut ea. Minus abporro illo excepturi commodi natus. Asperiores hic a.',
     reviewerName: 'Sidney Bins',
   },
   {
@@ -33,7 +33,7 @@ module.exports = [
     reviewMovieId: 9499977,
     reviewMovieName: 'Lord of the Rings',
     reviewRating: 2,
-    reviewText: 'Ut qui blanditiis officia sapiente voluptas. Eos blanditiis nihil temporibus ex facere nonaut. In facere eligendi quo. Placeat iste qui sint sit nam quod corporis quia. Eum qui debitis odio aliasmolestias nihil possimu',
+    reviewText: 'Ut qui blanditiis officia sapiente voluptas. Eos blanditiis nihil temporibus ex facere nonaut. In facere eligendi quo. Placeat iste qui sint sit nam quod corporis quia. Eum qui debitis odio aliasmolestias nihil possimu. Ut qui blanditiis officia sapiente voluptas. Eos blanditiis nihil temporibus ex facere nonaut. In facere eligendi quo. Placeat iste qui sint sit nam quod corporis quia. Eum qui debitis odio aliasmolestias nihil possimu.',
     reviewerName: 'Mrs. Chanel Rippin',
   },
   {
@@ -42,7 +42,7 @@ module.exports = [
     reviewMovieId: 9499977,
     reviewMovieName: 'Lord of the Rings',
     reviewRating: 5,
-    reviewText: 'Est voluptatem reiciendis et iste laboriosam autem sunt quos impedit. Quia sequi corruptiblanditiis. Rem provident sed ratione nemo deserunt eum fugit.',
+    reviewText: 'Est voluptatem reiciendis et iste laboriosam autem sunt quos impedit. Quia sequi corruptiblanditiis. Rem provident sed ratione nemo deserunt eum fugit. Ut qui blanditiis officia sapiente voluptas. Eos blanditiis nihil temporibus ex facere nonaut. In facere eligendi quo. Placeat iste qui sint sit nam quod corporis quia. Eum qui debitis odio aliasmolestias nihil possimu.',
     reviewerName: 'Julio Lynch Sr.',
   },
   {
@@ -51,7 +51,7 @@ module.exports = [
     reviewMovieId: 9499977,
     reviewMovieName: 'Lord of the Rings',
     reviewRating: 5,
-    reviewText: 'Ut illo id autem rerum. Voluptatem maxime aliquam ut doloribus sint voluptas quilaboriosam. Accusantium veniam corporis quia commodi. Perspiciatis eum architecto blanditiis fugiatvoluptas et qui quasi distinctio.',
+    reviewText: 'Ut illo id autem rerum. Voluptatem maxime aliquam ut doloribus sint voluptas quilaboriosam. Accusantium veniam corporis quia commodi. Perspiciatis eum architecto blanditiis fugiatvoluptas et qui quasi distinctio. Ut qui blanditiis officia sapiente voluptas. Eos blanditiis nihil temporibus ex facere nonaut. In facere eligendi quo. Placeat iste qui sint sit nam quod corporis quia. Eum qui debitis odio aliasmolestias nihil possimu.',
     reviewerName: 'Deontae Zieme',
   },
   {

@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "./server/server.js",
+  "engines": {
+    "node": "10.16.3"
+  },
   "scripts": {
-    "start": "nodemon ./server/server.js",
-    "build": "webpack -d --watch",
+    "start": "node ./server.js",
+    "build": "webpack -p",
     "writeData": "node database/writeData.js",
     "seedPostgres": "psql postgres < database/postgres/schema.sql",
     "seedMongo": "node database/writeData.js node database/mongo/mongo-seed.js",
-    "test": "jest"
+    "test": "jest",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +30,7 @@
     "babel-plugin-styled-components": "^1.10.6",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "faker": "^4.1.0",
     "fs": "0.0.1-security",
@@ -36,7 +41,6 @@
     "mongoose": "^5.7.4",
     "newrelic": "^6.1.0",
     "node": "^12.11.1",
-    "nodemon": "^1.19.3",
     "pg": "^7.12.1",
     "pg-copy-streams": "^2.2.2",
     "react": "^16.10.2",
