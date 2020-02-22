@@ -5,9 +5,9 @@ const bodyParser = require('body-parser');
 
 // DATABASES
 // mongo db
-// const db = require('../database/mongo/mongo-db.js');
+// const db = require('./database/mongo/mongo-db.js');
 // postgres db
-const db = require('../database/postgres/postgres-db.js');
+const db = require('./database/postgres/postgres-db.js');
 
 const json = bodyParser.json();
 const app = express();

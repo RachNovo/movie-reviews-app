@@ -4,7 +4,7 @@
   "description": "",
   "main": "./server/server.js",
   "scripts": {
-    "start": "nodemon server/server.js",
+    "start": "nodemon ./server/server.js",
     "build": "webpack -d --watch",
     "writeData": "node database/writeData.js",
     "seedPostgres": "psql postgres < database/postgres/schema.sql",
