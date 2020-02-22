@@ -1,14 +1,17 @@
-const { Client } = require('pg');
-const config = require('./config.json');
+// commented out because of issues deploying
+// (I didn't want to deploy my config.json file and heroku threw an error because it wasn't there)
 
-const client = new Client({
-  user: config.user,
-  host: config.host,
-  database: config.db,
-  password: config.pw,
-  port: config.port,
-});
+// const { Client } = require('pg');
+// const config = require('./config.json');
 
-client.connect();
+// const client = new Client({
+//   user: config.user,
+//   host: config.host,
+//   database: config.db,
+//   password: config.pw,
+//   port: config.port,
+// });
 
-module.exports = client;
+// client.connect();
+
+// module.exports = client;
