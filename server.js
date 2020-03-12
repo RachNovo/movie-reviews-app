@@ -18,7 +18,7 @@ app.use(cors());
 app.use(json);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'client', 'build')));
+app.use(express.static(path.join(__dirname, 'client', 'dist')));
 
 // create
 app.post('/api/audienceReviews', (req, res) => {
@@ -90,7 +90,7 @@ app.get('/loaderio-4aaa72da9f27ce7189151dd23f342e49.txt', (req, res) => {
 app.use(express.static('client/dist'));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
 });
 
 app.listen(PORT, console.log(`Server started on port ${PORT}`));

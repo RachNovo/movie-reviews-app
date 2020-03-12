@@ -21,6 +21,7 @@ class App extends React.Component {
   }
 
   // the commented out parts below send a request to the server, for ease of deploying to heroku and displaying on portfolio site, I have loaded the data using a mockData file instead.
+
   getAudienceReviews() {
     // const url = new URL(window.location.href);
     // const movie = url.searchParams.get('movie');
