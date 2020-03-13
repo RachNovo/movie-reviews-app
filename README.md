@@ -1,6 +1,14 @@
 # Movie Reviews App: Audience Reviews Service
 
+1. [Overview](#overview)
+2. [Getting Started](#getting-started)
+3. [Tools Used](#built-with)
+4. [Authors](#authors)
+5. [License](#license)
+
 ![alt House](https://rachel-portfolio.s3.amazonaws.com/popcorn.jpg)
+
+## Overview
 
 > Your one-stop-shop for movie information, reviews, ratings, previews and more! This is one service out of four for the full application.
 
