@@ -2,7 +2,7 @@
 
 ![alt House](https://rachel-portfolio.s3.amazonaws.com/popcorn.jpg)
 
-> Your one-stop-shop for movie information, reviews, ratings, previews and more! This is one service out of four for the full application. [Full App Demo: Coming soon](link)
+> Your one-stop-shop for movie information, reviews, ratings, previews and more! This is one service out of four for the full application.
 
 ##### Team Members
 
