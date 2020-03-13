@@ -20,7 +20,7 @@ class App extends React.Component {
     this.expandCollapse = this.expandCollapse.bind(this);
   }
 
-  // the commented out parts below send a request to the server, for ease of deploying to heroku and displaying on portfolio site, I have loaded the data using a mockData file instead.
+  // the commented out parts below send a request to the server, for ease of deploying to heroku and displaying on portfolio site, I have loaded the data using a mockData file. To request a movieId from a url query instead, uncomment the code below and run `npm run build` to refresh the app. Next, go to `database/postgres/postgres-client.js` and uncomment the code there. You must set up postgreSQL (https://www.postgresql.org/docs/12/tutorial-start.html), then create a `config.json` file based off the `config.example.json` file. Next, use the command `npm run writeData` to create a csv file with mock data (go through the `database/writeData.js` file to change the amount of movies you would like to generate. It is currently set to create 100 movies.) Next, use the command `npm run seedPostgres` to transfer your data to your database. (You must replace the address of the copy command to your local machine or deployed instance address) After that, you should be able to access each movie by using the url query `/?movie=57`, replacing that number with the movie you would like to access.
 
   getAudienceReviews() {
     // const url = new URL(window.location.href);
