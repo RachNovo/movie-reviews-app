@@ -54,7 +54,11 @@ The service will now be available at: http://localhost:8100/
 **Note:** It is currently set up to call a specific movie for display purposes. To access movie id's by url query, follow the instructions found in `client/src/App.jsx`. You will need to install and set up PostgreSQL.
 
 ### Testing
-> Details of the app's performance.
+> How to run the legacy jest testing suite.
+
+```bash
+$ npm run test
+```
 
 #### Stress Testing
 Coming soon. My adventures stress testing this app at scale.
@@ -78,7 +82,6 @@ SQL schema, transferring 10+ GB with one command
   - Improved efficiency by refactoring legacy code to use back end queries and column indexing
 leading to reduction in query time from five minutes to ~80 ms
   - Implemented realistic stress testing using payload files, the app maintained 0% error rate at 1k rps
-
 
 ## License
 
