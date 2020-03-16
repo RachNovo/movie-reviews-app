@@ -1,8 +1,8 @@
 # Movie Reviews App: Audience Reviews Service
 
 1. [Overview](#overview)
-2. [Getting Started](#getting-started)
-3. [Tools Used](#built-with)
+2. [Tools Used](#built-with)
+3. [Getting Started](#getting-started) 
 4. [Authors](#authors)
 5. [License](#license)
 
@@ -25,6 +25,15 @@
 ##### Video Demo
 
 - [Coming Soon](YouTubeLink)
+
+## Built With
+
+* [Node/](https://nodejs.org/en/docs/)[Express](https://expressjs.com/) - Used to Build and Serve the Back-End
+* [PostgreSQL](https://www.postgresql.org/) - Database
+* [AWS EC2](https://aws.amazon.com/ec2/)[/S3](https://aws.amazon.com/s3/) - Deployment and Image Hosting
+* [K6.io](https://k6.io/) - Used to Stress Test the App Locally
+* [Loader.io](https://loader.io/) - Used to Stress Test my AWS Deployed App Using Payload Files
+* [Trello](https://trello.com/) - Ticketing System to Assist with Project Management
 
 ## Getting Started
 > Follow these steps to install and run this service on your local machine.
@@ -53,25 +62,15 @@ The service will now be available at: http://localhost:8100/
 
 **Note:** It is currently set up to call a specific movie for display purposes. To access movie id's by url query, follow the instructions found in `client/src/App.jsx`. You will need to install and set up PostgreSQL.
 
-### Testing
+#### Testing
 > How to run the legacy jest testing suite.
 
 ```bash
 $ npm run test
 ```
 
-#### Stress Testing
+## Stress Testing
 Coming soon. My adventures stress testing this app at scale.
-
-
-## Built With
-
-* [Node/](https://nodejs.org/en/docs/)[Express](https://expressjs.com/) - Used to Build and Serve the Back-End
-* [PostgreSQL](https://www.postgresql.org/) - Database
-* [AWS EC2](https://aws.amazon.com/ec2/)[/S3](https://aws.amazon.com/s3/) - Deployment and Image Hosting
-* [K6.io](https://k6.io/) - Used to Stress Test the App Locally
-* [Loader.io](https://loader.io/) - Used to Stress Test my AWS Deployed App Using Payload Files
-* [Trello](https://trello.com/) - Ticketing System to Assist with Project Management
 
 ## Authors
 - Jonathan Yang - [jonyang221](https://github.com/jonyang221) - Designed and Built the Front-End and UI
