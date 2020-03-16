@@ -1,7 +1,9 @@
+import { shallow } from 'enzyme';
+
 const axios = require('axios');
 const express = require('express');
+
 const app = express();
-import { shallow } from 'enzyme';
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -14,6 +16,6 @@ describe('API route to get user reviews', () => {
       })
       .catch(response => {
         console.log('This was an error ', response);
-      })
-  })
-})
+      });
+  });
+});
