@@ -1,7 +1,7 @@
 # Movie Reviews App: Audience Reviews Service
 
 1. [Overview](#overview)
-2. [Tools Used](#built-with)
+2. [Technologies](#technologies)
 3. [Getting Started](#getting-started) 
 4. [Authors](#authors)
 5. [License](#license)
@@ -26,7 +26,7 @@
 
 - [Coming Soon](YouTubeLink)
 
-## Built With
+## Technologies
 
 * [Node/](https://nodejs.org/en/docs/)[Express](https://expressjs.com/) - Used to Build and Serve the Back-End
 * [PostgreSQL](https://www.postgresql.org/) - Database
