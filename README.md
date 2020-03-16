@@ -51,7 +51,7 @@ The service will now be available at: http://localhost:8100/
 
 ![Lodging-Marketplace-Demo](https://rachel-portfolio.s3.amazonaws.com/audience-reviews-demo.gif)
 
-**Note:** It is currently set up to call a specific movie for display purposes. To access movie id's by url query, follow the instructions found in `client/src/App.jsx`.
+**Note:** It is currently set up to call a specific movie for display purposes. To access movie id's by url query, follow the instructions found in `client/src/App.jsx`. You will need to install and set up PostgreSQL.
 
 ### Testing
 > Details of the app's performance.
