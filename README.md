@@ -8,7 +8,7 @@
 
 ![alt House](https://rachel-portfolio.s3.amazonaws.com/popcorn.jpg)
 
-## Overview
+# Overview
 
 > Your one-stop-shop for movie information, reviews, ratings, trailers and more! This is one service out of four for the full application. Our team replaced and scaled the back end of these pre-built services.
 
@@ -34,7 +34,7 @@ SQL schema, transferring 10+ GB with one command
 leading to reduction in query time from five minutes to ~80 ms
   - Implemented realistic stress testing using payload files, the app maintained 0% error rate at 1k rps
 
-## Technologies
+# Technologies
 
 * [Node/](https://nodejs.org/en/docs/)[Express](https://expressjs.com/) - Used to Build and Serve the Back-End
 * [PostgreSQL](https://www.postgresql.org/) - Database
@@ -43,7 +43,7 @@ leading to reduction in query time from five minutes to ~80 ms
 * [Loader.io](https://loader.io/) - Used to Stress Test my AWS Deployed App Using Payload Files
 * [Trello](https://trello.com/) - Ticketing System to Assist with Project Management
 
-## Getting Started
+# Getting Started
 > Follow these steps to install and run this service on your local machine.
 
 **Prerequisites:** Git, Node.js, npm
@@ -77,7 +77,7 @@ The service will now be available at: http://localhost:8100/
 $ npm run test
 ```
 
-## Stress Testing
+# Stress Testing
 > How to run the K6.io and Loader.io stress testing suites locally and on the cloud and details of application performance at scale.
 
 ### Local Machine
@@ -105,6 +105,6 @@ After I deployed the app and the PostgreSQL database to AWS EC2 instances, seedi
 ![stress-test-700rps](https://audience-reviews.s3.amazonaws.com/stress+testing/stress-test-700-rps.png)
 ![stress-test-1000-rps](https://audience-reviews.s3.amazonaws.com/stress+testing/stress-test-1000-rps.png)
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
