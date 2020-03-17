@@ -12,18 +12,18 @@
 
 > Your one-stop-shop for movie information, reviews, ratings, trailers and more! This is one service out of four for the full application. Our team replaced and scaled the back end of these pre-built services.
 
-##### Demos:
+### Demos:
 - [Visit Deployed Service](https://audience-reviews.herokuapp.com/)
 - [Video Overview (Coming Soon)](YouTubeLink)
 
-#### Team Members
+### Team Members
 
 - Rachel Novoselac - [RachNovo](https://github.com/RachNovo) - Audience Reviews Service (this is me :) )
 - David Fuentes - [DavidFuent1](https://github.com/DavidFuent1) - Cast Photos Service
 - Michael Scanza - [mscanza](https://github.com/mscanza) - Critic Reviews Service
 - Jeffrey Lee - [ryuuohlee](https://github.com/ryuuohlee) - Movie Previews Service
 
-##### Audience Reviews Service Authors
+### Audience Reviews Service Authors
 
 - Jonathan Yang - [jonyang221](https://github.com/jonyang221) - Designed and Built the Front-End and UI
 - Rachel Novoselac - [RachNovo](https://github.com/RachNovo) - (this is me :) )
@@ -48,7 +48,7 @@ leading to reduction in query time from five minutes to ~80 ms
 
 **Prerequisites:** Git, Node.js, npm
 
-#### Installing
+### Installing
 
 First, navigate to the local directory where you want to host the service.
 
@@ -70,7 +70,7 @@ The service will now be available at: http://localhost:8100/
 
 **Note:** It is currently set up to call a specific movie for display purposes. To access movie id's by url query, follow the instructions found in `client/src/App.jsx`. You will need to install and set up PostgreSQL.
 
-#### Testing
+### Testing
 > How to run the legacy jest testing suite.
 
 ```bash
@@ -80,7 +80,7 @@ $ npm run test
 ## Stress Testing
 > How to run the K6.io and Loader.io stress testing suites locally and on the cloud and details of application performance at scale.
 
-#### Local Machine
+### Local Machine
 To run the K6.io stress testing suites, use the following commands. To learn more, check out the [K6.io docs](https://k6.io/docs/test-types/stress-testing).
 
 To run the script I designed, which sends http get requests to the app for a random movie id ramping up from 10 virtual users to 500 and back over 2 minutes checking for the correct status response and transaction time, use the following command:
@@ -97,7 +97,7 @@ $ k6 run --vus 10 --duration 5s stressTesting/http_get.js
 $ k6 run --vus 10 --duration 5s stressTesting/http_post.js
 ```
 
-#### Cloud
+### Cloud
 To run Loader.io stress testing suites yourself, you will have to deploy the app and create your own tests at Loader.io. Contact me if you require assistance. To learn more, visit [Loader.io](https://loader.io/).
 
 After I deployed the app and the PostgreSQL database to AWS EC2 instances, seeding the database with 100 million records, I ran stress tests using payload files to ensure each request targeted a unique id. The results are shown below. The average response time remained under 80 ms until 700 rps and the app maintained a 0% error rate until 1,000 rps.
